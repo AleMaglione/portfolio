@@ -1,0 +1,271 @@
+
+
+body {
+  margin: 0;
+  margin-top: 80px; 
+  font-family: 'Poppins', sans-serif;
+}
+	
+
+
+#contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-box {
+  width: clamp(100px, 90%, 1000px);
+  margin: 80px auto; /* Utilizza "auto" per centrare orizzontalmente */
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+  justify-content: center; /* Aggiunto per centrare orizzontalmente */
+  flex-wrap: wrap;
+}
+
+.contact-links, .contact-form-wrapper {
+  width: 50%;
+  padding: 8% 5% 10% 5%;
+}
+
+
+.contact-links {
+  background-image: url(images/background.jpg);
+  
+}
+
+.contact-form-wrapper {
+  background-color: #ffffff8f;
+  border-radius: 0 10px 10px 0;
+}
+
+@media only screen and (max-width: 800px) {
+  .contact-links, .contact-form-wrapper {
+    width: 100%;
+  }
+  
+  .contact-links {
+    border-radius: 10px 10px 0 0;
+  }
+  
+  .contact-form-wrapper {
+    border-radius: 0 0 10px 10px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .contact-box {
+    width: 95%;
+    margin: 8% 5%;
+  }
+}
+
+h2 {
+  font-family: 'Poppins', sans-serif;
+  color: #fff;
+  font-size: 24px;
+  letter-spacing: 2px;
+  text-align: center;
+  transform: scale(.95, 1);
+}
+
+.links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 50px;
+}
+
+.link {
+  margin: 10px;
+  cursor: pointer;
+}
+
+.form-item {
+  position: relative;
+}
+
+label, input, textarea {
+  font-family: 'Poppins', sans-serif;
+}
+
+label {
+  position: absolute;
+  top: 10px;
+  left: 2%;
+  color: #999;
+  font-size: clamp(14px, 1.5vw, 18px);
+  pointer-events: none;
+  user-select: none;
+}
+
+input, textarea {
+  width: 100%;
+  outline: 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  padding: 12px;
+  font-size: clamp(15px, 1.5vw, 18px);
+}
+
+input:focus+label, 
+input:valid+label, 
+textarea:focus+label, 
+textarea:valid+label {
+  font-size: clamp(13px, 1.3vw, 16px);
+  color: #777;
+  top: -20px;
+  transition: all .225s ease;
+}
+
+.submit-btn {
+  background-color: #B5C99A;
+  filter: drop-shadow(2px 2px 3px #0003);
+  color: #222;
+  font-family: "Poppins medium",sans-serif;
+  font-size: 18px;
+  display: block;
+  margin: auto;
+  border: none;
+  margin-top: 20px;
+  padding: 30px;
+  border-radius: 8px;
+  cursor: pointer;
+  user-select: none;
+  transition: 0.2s;
+}
+
+.submit-btn:hover {
+  transform: scale(1.1, 1.1);
+}
+
+.submit-btn:active {
+  transform: scale(1.1, 1.1);
+  filter: sepia(0.5);
+}
+
+@media only screen and (max-width: 800px) {
+  h2 {
+    font-size: auto;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  h2 {
+    font-size: clamp(30px, 12vw, 60px);
+  }
+  
+  .links {
+    padding-top: 10px;
+  }
+  
+  img {
+    width: 38px;
+    height: 38px;
+  }
+}
+
+.table-container2 {
+  display: flex;
+  flex-direction: column;
+  max-width: 800px;
+  margin: auto;
+  margin-bottom: 20px;
+  box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.1)
+  }
+
+  h3 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+.row2 {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center; /* Allinea gli elementi delle colonne al centro verticalmente */
+  justify-content: center; /* Allinea le colonne al centro orizzontalmente */
+  padding: 10px; /* Aggiungi padding alla row */
+  
+}
+
+.table {
+  display: table;
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.p-column {
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  font-family: 'Poppins medium', sans-serif
+}
+
+.cell {
+  display: table-cell;
+  padding: 20px;
+  padding-bottom: 10px;
+  text-align: center;
+  background-color: white;
+  border-radius: 8px;
+  align-items: center;
+  margin:auto;
+  
+}
+
+.cell-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.cell-image2 {
+  max-width: 100%;
+  padding-top: 10px;
+  margin-bottom: 2px; /* Aggiunto margine solo nella parte inferiore per spaziare il testo dall'immagine */
+  align-self: center; /* Aggiunto per centrare l'immagine all'interno del contenitore flessibile */
+  }
+
+.cell-image {
+  max-width: 50%;
+  padding-top: 10px;
+  margin-bottom: 2px; /* Aggiunto margine solo nella parte inferiore per spaziare il testo dall'immagine */
+  align-self: center; /* Aggiunto per centrare l'immagine all'interno del contenitore flessibile */
+  }
+
+
+  @media only screen and (max-width: 768px) {
+    @media (min-width: 600px) {
+      .row2 {
+        justify-content: space-between; /* Distribuisci le colonne su schermi più grandi */
+      }
+    
+      .cell {
+        width: 48%; /* Fai in modo che le celle occupino il 48% della larghezza su schermi più grandi */
+        margin-bottom: 10px; /* Aggiunto margine tra le celle */
+      }
+    }
+  }
+
+    h3 {
+      font-size: 30px;
+      font-family: 'Poppins', sans-serif;
+      font-weight: medium;
+      margin-bottom: 10px;
+      color:#fff;
+    }
+
+    .h3-contatti {
+      font-size: 30px;
+      font-family: 'Poppins', sans-serif;
+      font-weight: medium;
+      margin-bottom: 10px;
+      color:#065a60;
+    }
