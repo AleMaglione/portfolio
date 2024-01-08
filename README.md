@@ -13,7 +13,7 @@ Il sito è interamente responsive ed il suo design è stato realizzato per favor
 
 Per realizzarlo ho utilizzato Visual Studio Code.
 
-**Nota** Tieni presente che questo è il primo sito in HTML che realizzo, e che essendo un progetto è ancora \_un work in progress_\. Noterai che i metodi di contatto sono incompleti e che non sono presenti molti progetti nel portfolio. Col tempo migliorerò l'interfaccia cercando di rendere il sito più performante!
+**Nota** Tieni presente che questo è il primo sito in HTML che realizzo, e che essendo un progetto è ancora _un work in progress_ . Noterai che i metodi di contatto sono incompleti e che non sono presenti molti progetti nel portfolio. Col tempo migliorerò l'interfaccia cercando di rendere il sito più performante!
 
 ## Home.html
 
