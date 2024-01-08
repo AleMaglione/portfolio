@@ -21,11 +21,11 @@ Pagina principale del sito, al cui interno ho strutturato l'Header e il Footer c
 
 All'interno di questa pagina sono presenti le card che rimandano ai progetti del portfolio.
 
-## about.html 
+## [about.html](https://alemaglione.github.io/portfolio/about.html)
 
 In questa directory ho inserito le informazioni su di me, il mio curriculum e i miei interessi. Ho strutturato la pagina con delle tabelle interamente responsive.
 
-## contatti.html 
+## [contatti.html](https://alemaglione.github.io/portfolio/contatti.html)
 
 Questa pagina contiene il form di contatto.
 
